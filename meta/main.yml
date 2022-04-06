@@ -17,7 +17,7 @@ galaxy_info:
   # - GPL-3.0-only
   # - Apache-2.0
   # - CC-BY-4.0
-  license: license (GPL-2.0-or-later, MIT, etc)
+  license: MIT
 
   min_ansible_version: 2.1
 
@@ -41,6 +41,16 @@ galaxy_info:
   #   - 1.0
   #   - 7
   #   - 99.99
+  
+  platforms:
+    - name: Ubuntu
+      versions:
+        - all
+    - name: CentOS
+      versions:
+        - all
+
+
 
   galaxy_tags: []
     # List tags for your role here, one per line. A tag is a keyword that describes
