@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include elk_role"
+      include_role:
+        name: "elk_role"
