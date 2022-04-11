@@ -1,2 +1,15 @@
 ---
 # tasks file for elk_role
+---
+- hosts: all
+  roles:
+    - filebeat_role
+- hosts: elastic
+  roles:
+    - elastic_role
+- hosts: kibana
+  roles:
+    - kibana_role
+- hosts: logstash
+  roles:
+    - logstash_role
