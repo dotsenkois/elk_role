@@ -1,6 +1,5 @@
 ---
 # tasks file for elk_role
----
 - hosts: all
   roles:
     - filebeat_role
