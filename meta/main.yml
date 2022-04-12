@@ -1,6 +1,5 @@
 galaxy_info:
   author: "dotsenkois"
-  namespace: elk_stack
   description: elk stack install
   company: "dotsenkois"
   role_name: "elk_role"

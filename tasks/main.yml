@@ -1,2 +1,17 @@
 ---
-# tasks file for elk_role
+- name: include role Kibana
+  include_role:
+    name: kibana_role  
+
+- name: include role Logstash
+  include_role:
+    name: logstash_role
+
+- name: include role Filebeat
+  include_role:
+    name: filebeat_role
+
+- name: include role elastic
+  include_role:
+    name: elastic_role
+  
